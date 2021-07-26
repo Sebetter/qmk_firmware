@@ -31,6 +31,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LED_MATRIX_COLUMNS LED_MATRIX_COLS
 #define LED_MATRIX_COL_PINS { A8, A9, A10, A11, A12, A13, A14, A15, B0, B1, B2, B3, B4, B5, B6, B7 }
 
+#define LED_CAPS_LOCK_PIN B9
+
 #define DRIVER_LED_TOTAL (68)
 
 //#define RGB_MATRIX_ENABLE 1
@@ -39,8 +41,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define RGB_MATRIX_LED_FLUSH_LIMIT 0 // limits in milliseconds how frequently an animation will update the LEDs. 16 (16ms) is equivalent to limiting to 60fps (increases keyboard responsiveness)
 //#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 255 // limits maximum brightness of LEDs to 200 out of 255. If not defined maximum brightness is set to 255
 #define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_SOLID_COLOR
-#define RGB_MATRIX_STARTUP_HUE 127 // Sets the default hue value, if none has been set
-#define RGB_MATRIX_STARTUP_SAT 0   // Sets the default saturation value, if none has been set
+#define RGB_MATRIX_STARTUP_HUE 180 // Sets the default hue value, if none has been set
+#define RGB_MATRIX_STARTUP_SAT 1   // Sets the default saturation value, if none has been set
 #define RGB_MATRIX_STARTUP_VAL 255 // Sets the default brightness value, if none has been set
 #define RGB_MATRIX_STARTUP_SPD 63
 #define RGB_MATRIX_SPD_STEP 16

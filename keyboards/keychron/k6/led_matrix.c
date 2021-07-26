@@ -75,6 +75,13 @@ const rgb_matrix_driver_t rgb_matrix_driver = {
     .set_color     = set_color,
     .set_color_all = set_color_all,
 };
+
+
+bool led_update_user(led_t led_state) {
+    writePin(B9, !led_state.caps_lock);
+    return true;
+}
+
 /*
 // byte order: R,B,G
 static uint8_t caps_lock_color[3] = { 0x00, 0x00, 0xFF };
