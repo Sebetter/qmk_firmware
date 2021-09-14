@@ -4,14 +4,15 @@ You don't have to do some of these steps exactly this way, but here's what I did
 
 1) If you're running the version of SonixQMK from after July 26th 2021, then the qmk_firmware to a zip file and store it somewhere just in case.
 
-2.1) You can clone either my fork and simply edit my keymap (sebetterRGBFN) or make your own by cloning the repo in step 2.2.
+2.1) You can clone either my fork and simply edit my keymap (sebetter) or make your own by cloning the first listed repo (radunanescu) in step 2.2.
 
-2.2) Open QMK MSYS (or ubuntu) and enter this: 
+2.2) Open QMK MSYS (or ubuntu) and enter ONE of these not both : 
 git clone https://github.com/radunanescu/qmk_firmware.git
+git clone https://github.com/Sebetter/qmk_firmware.git
 
 3) follow CanUnesi's instruction steps 2.5-2.7 in QMK MSYS (https://github.com/CanUnesi/QMK-on-K6#2-setting-up-the-environment---qmk-msys)
 
-4) Navigate to qmk_firmware/keyboards/keychron/k6/keymaps
+4) Navigate to qmk_firmware/keyboards/keychron/k6/keymaps. If you cloned my repo in step 2.2, then ignore step 4 & 5.
 
 5) unzip sebetterRGBFN into the keymaps folder.
 
