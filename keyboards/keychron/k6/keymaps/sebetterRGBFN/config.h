@@ -50,3 +50,6 @@
 
 // This is required since there no EEPROM support yet
 #define FORCE_NKRO
+
+// For CTRL Shift Delete
+#define GRAVE_ESC_CTRL_OVERRIDE
